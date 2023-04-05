@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: #071E22;
+  color: #E0FBFC;
+}
+
+.app {
+  width: 90%;
+  max-width: 800px;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  text-align: center;
+}
+.home .welcome p {
+  margin: 0.5rem auto;
+  max-width: 327px;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.home button {
+  width: 100%;
+  max-width: 200px;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  color: #071E22;
+  background-color: #1D7874;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+  height: 300px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #5C6B73;
+}
+form .uploader-container {
+  border: 1px dashed #9DB4C0;
+  border-radius: 5px;
+  height: 100%;
+  background-color: #253237;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 2rem;
+  transition: 0.3s ease-in-out;
+}
+form .uploader-container .image-icon {
+  font-size: 5rem;
+}
+form .uploader-container:hover {
+  opacity: 0.6;
+}
+
+.preview-img {
+  width: 30%;
+  margin: 2rem 0;
+}
+.preview-img img {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */
